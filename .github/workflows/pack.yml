@@ -8,7 +8,7 @@ permissions:
   id-token: write
 
 env:
-  PACK_NAME: minemoji
+  PACK_NAME: eimaghost-emotes
 
 jobs:
     generate-pack:
