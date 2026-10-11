@@ -39,6 +39,7 @@ jobs:
             --input-directory ./assets/
             --output-directory ./site/${PACK_NAME}
             --prefix ${PACK_NAME}
+            --width 64
             --pack-url $(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.html_url')${PACK_NAME}.zip
             --zip-pack
         - name: serve example json
